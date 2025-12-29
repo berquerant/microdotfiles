@@ -2,6 +2,17 @@
 
 My minimal dotfiles.
 
+- Modifies built-in settings.
+- No third-party packages installed.
+
+## Scope
+
+- bash
+- zsh
+- git
+- subversion
+- emacs
+
 ## Usage
 
 ``` shell
