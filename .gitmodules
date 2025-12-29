@@ -1,0 +1,6 @@
+[submodule "sh-minimal-init"]
+	path = sh-minimal-init
+	url = https://github.com/berquerant/sh-minimal-init
+[submodule "emacs-minimal-init"]
+	path = emacs-minimal-init
+	url = https://github.com/berquerant/emacs-minimal-init
