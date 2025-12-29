@@ -27,13 +27,13 @@ jobs:
         env:
           GIT_USER_NAME: example_user_name
           GIT_USER_EMAIL: example_user_email
-      - name: Load bashrc
-        run: source ~/.bashrc
       - name: Setup Emacs
         uses: purcell/setup-emacs@8415786a52b3a84babd7ffc92a802b06e3780c17
         with:
           version: "30.1"
       - name: Init emacs
-        run: make emacs
+        run: |
+          source ~/.bashrc
+          make emacs
       - name: Load init.el
         run: emacs --batch --debug-init --load ~/.emacs.d/init.el
