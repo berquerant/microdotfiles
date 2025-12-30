@@ -12,6 +12,7 @@ My minimal dotfiles.
 - git
 - subversion
 - emacs
+- tmux
 
 ## Usage
 
