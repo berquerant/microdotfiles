@@ -13,6 +13,7 @@ My minimal dotfiles.
 - subversion
 - emacs
 - tmux
+- kubernetes
 
 ## Usage
 
