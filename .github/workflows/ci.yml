@@ -28,7 +28,7 @@ jobs:
           GIT_USER_NAME: example_user_name
           GIT_USER_EMAIL: example_user_email
       - name: Setup Emacs
-        uses: purcell/setup-emacs@8415786a52b3a84babd7ffc92a802b06e3780c17
+        uses: purcell/setup-emacs@bdc64dc730ae1fcba200bfd52cb1b4cf6159cbe5
         with:
           version: "30.1"
       - name: Init emacs
